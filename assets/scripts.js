@@ -1,9 +1,9 @@
 $(function() {
 
     // Always start page at top
-    window.onbeforeunload = function(){
+    /*window.onbeforeunload = function(){
         window.scrollTo(0,0);
-    }
+    }*/
 
     // Scroll function to animate the meters in
     // Function from Travis Neilson's YouTube channel. http://travisneilson.com/

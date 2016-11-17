@@ -1,16 +1,21 @@
 $(function() {
 
+    // Always start page at top
     window.onbeforeunload = function(){
         window.scrollTo(0,0);
     }
 
-    var meter_class = ["drums", "hockey", "games", "tech"]
+    // Scroll function to animate the meters in
+    var meter_class = ["drums", "hockey", "games", "tech"];
 
     $(window).scroll(function() {
-        console.log($(this).scrollTop());
-        if($(this).scrollTop() >= 300)
+        var vp_scroll = $(this).scrollTop();
+        if(vp_scroll > $(".meter-fill").offset().top - ($(window).height() / 1.1)) {
             $(".meter-fill").each(function (i) {
-                $(this).addClass(meter_class[i]);
+                setTimeout(function() {
+                    $(".meter-fill").eq(i).addClass(meter_class[i]);
+                }, 150 * (i+1));
             });
+        }
     });
 });

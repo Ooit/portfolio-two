@@ -96,6 +96,11 @@ body {
 .hobbies h2 {
   text-align: center; }
 
+.hobbies-label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 0.7em; }
+
 .meter {
   height: 1em;
   background: transparent;

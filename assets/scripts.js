@@ -6,6 +6,7 @@ $(function() {
     }
 
     // Scroll function to animate the meters in
+    // Function from Travis Neilson's YouTube channel. http://travisneilson.com/
     var meter_class = ["drums", "hockey", "games", "tech"];
 
     $(window).scroll(function() {

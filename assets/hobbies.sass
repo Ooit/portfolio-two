@@ -1,7 +1,7 @@
 $drums: 95%
-$hockey: 90%
-$games: 88%
-$tech: 85%
+$hockey: 85%
+$games: 60%
+$tech: 72%
 
 .hobbies
     background: #fafafa
@@ -21,11 +21,15 @@ $tech: 85%
     text-align: center
 
 .meter
-    border: 1px solid #757575
+    //border: 1px solid #757575
     height: 1em
     background: transparent
-    width: 70%
+    width: 100%
     margin: 1% 0 10% 0
+    border-radius: 1.1em
+
+.meter-fill
+    border-radius: 1.1em
 
 .meter-fill.drums
     width: $drums
@@ -35,14 +39,14 @@ $tech: 85%
 .meter-fill.hockey
     width: $hockey
     height: calc(1em - 2px)
-    background: #81C784
+    background: #4FC3F7
 
 .meter-fill.games
     width: $games
     height: calc(1em - 2px)
-    background: #81C784
+    background: #9575CD
 
 .meter-fill.tech
     width: $tech
     height: calc(1em - 2px)
-    background: #81C784
+    background: #F06292

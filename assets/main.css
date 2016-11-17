@@ -96,11 +96,14 @@ body {
   text-align: center; }
 
 .meter {
-  border: 1px solid #757575;
   height: 1em;
   background: transparent;
-  width: 70%;
-  margin: 1% 0 10% 0; }
+  width: 100%;
+  margin: 1% 0 10% 0;
+  border-radius: 1.1em; }
+
+.meter-fill {
+  border-radius: 1.1em; }
 
 .meter-fill.drums {
   width: 95%;
@@ -108,18 +111,18 @@ body {
   background: #81C784; }
 
 .meter-fill.hockey {
-  width: 90%;
-  height: calc(1em - 2px);
-  background: #81C784; }
-
-.meter-fill.games {
-  width: 88%;
-  height: calc(1em - 2px);
-  background: #81C784; }
-
-.meter-fill.tech {
   width: 85%;
   height: calc(1em - 2px);
-  background: #81C784; }
+  background: #4FC3F7; }
+
+.meter-fill.games {
+  width: 60%;
+  height: calc(1em - 2px);
+  background: #9575CD; }
+
+.meter-fill.tech {
+  width: 72%;
+  height: calc(1em - 2px);
+  background: #F06292; }
 
 /*# sourceMappingURL=main.css.map */

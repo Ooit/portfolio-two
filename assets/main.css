@@ -19,7 +19,8 @@ body {
   height: 100vh;
   color: #fff;
   box-shadow: 0 0 6px 0 #212121;
-  font-size: 3em; }
+  font-size: 3em;
+  position: relative; }
 
 .welcome h2 {
   font-weight: normal;

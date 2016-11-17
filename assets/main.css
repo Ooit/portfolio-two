@@ -15,6 +15,7 @@ body {
 .welcome {
   background: url(images/rob.jpg) center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   color: #fff;
   box-shadow: 0 0 6px 0 #212121;
@@ -103,26 +104,28 @@ body {
   border-radius: 1.1em; }
 
 .meter-fill {
-  border-radius: 1.1em; }
+  border-radius: 1.1em;
+  height: calc(1em - 2px);
+  width: 0%; }
 
 .meter-fill.drums {
   width: 95%;
-  height: calc(1em - 2px);
-  background: #81C784; }
+  background: #81C784;
+  transition: width 0.6s ease-in; }
 
 .meter-fill.hockey {
   width: 85%;
-  height: calc(1em - 2px);
-  background: #4FC3F7; }
+  background: #4FC3F7;
+  transition: width 0.6s ease-in; }
 
 .meter-fill.games {
   width: 60%;
-  height: calc(1em - 2px);
-  background: #9575CD; }
+  background: #9575CD;
+  transition: width 0.6s ease-in; }
 
 .meter-fill.tech {
   width: 72%;
-  height: calc(1em - 2px);
-  background: #F06292; }
+  background: #F06292;
+  transition: width 0.6s ease-in; }
 
 /*# sourceMappingURL=main.css.map */

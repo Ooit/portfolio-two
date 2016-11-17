@@ -21,7 +21,6 @@ $tech: 72%
     text-align: center
 
 .meter
-    //border: 1px solid #757575
     height: 1em
     background: transparent
     width: 100%
@@ -30,23 +29,25 @@ $tech: 72%
 
 .meter-fill
     border-radius: 1.1em
+    height: calc(1em - 2px)
+    width: 0%
 
 .meter-fill.drums
     width: $drums
-    height: calc(1em - 2px)
     background: #81C784
+    transition: width 0.6s ease-in
 
 .meter-fill.hockey
     width: $hockey
-    height: calc(1em - 2px)
     background: #4FC3F7
+    transition: width 0.6s ease-in
 
 .meter-fill.games
     width: $games
-    height: calc(1em - 2px)
     background: #9575CD
+    transition: width 0.6s ease-in
 
 .meter-fill.tech
     width: $tech
-    height: calc(1em - 2px)
     background: #F06292
+    transition: width 0.6s ease-in

@@ -9,11 +9,13 @@ html, body, h2, p {
   border: 0;
   padding: 0; }
 
+body {
+  font-family: "Amatic SC", cursive; }
+
 .welcome {
   background: url(images/rob.jpg) center;
   background-size: cover;
   height: 100vh;
-  font-family: "Amatic SC", cursive;
   color: #fff;
   box-shadow: 0 0 6px 0 #212121;
   font-size: 3em; }
@@ -75,5 +77,49 @@ html, body, h2, p {
 
 .next-wrap {
   display: none; }
+
+.hobbies {
+  background: #fafafa;
+  font-size: 1.5em;
+  padding: 0.5em 0; }
+
+.hobbies-wrap {
+  margin: 0 10%; }
+
+.hobbies-row {
+  font-size: 1.2em; }
+
+.hobbies-row:first-of-type {
+  margin: 5% 0 0 0; }
+
+.hobbies h2 {
+  text-align: center; }
+
+.meter {
+  border: 1px solid #757575;
+  height: 1em;
+  background: transparent;
+  width: 70%;
+  margin: 1% 0 10% 0; }
+
+.meter-fill.drums {
+  width: 95%;
+  height: calc(1em - 2px);
+  background: #81C784; }
+
+.meter-fill.hockey {
+  width: 90%;
+  height: calc(1em - 2px);
+  background: #81C784; }
+
+.meter-fill.games {
+  width: 88%;
+  height: calc(1em - 2px);
+  background: #81C784; }
+
+.meter-fill.tech {
+  width: 85%;
+  height: calc(1em - 2px);
+  background: #81C784; }
 
 /*# sourceMappingURL=main.css.map */

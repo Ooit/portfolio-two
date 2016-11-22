@@ -137,7 +137,8 @@ body {
   transition: width 0.6s ease-in; }
 
 .skills {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  padding: 0 0 2% 0; }
 
 .skills-wrap {
   margin: 0 10%; }
@@ -146,19 +147,50 @@ body {
   text-align: center; }
 
 .skills-list {
-  border: 1px solid #eee;
-  background: #fafafa;
-  margin: 5% 0; }
+  margin: 2% 0;
+  border-right: 2px dashed #424242; }
 
-.skills-list-head {
-  font-weight: bold; }
+.skills-list:last-of-type {
+  margin: 0 0 2% 0; }
 
-.skills-list-head, .skills-list-item {
+.skills-list-item {
+  margin: 1% 0;
   height: calc(100% / 6);
-  padding: 3% 0 3% 5%;
-  box-shadow: 0 0.3em 1px -0.3em #bdbdbd; }
+  width: 0;
+  background: #03A9F4; }
+  .skills-list-item:nth-of-type(2n) {
+    background: #92dcfe; }
 
-.skills-list-item:last-of-type {
-  border-bottom: 0; }
+.skills-label {
+  z-index: 2;
+  width: 3em;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  padding: 0 0 0 0.1em;
+  background: #424242; }
+
+.html {
+  width: 90%;
+  transition: width 0.6s ease-in; }
+
+.css {
+  width: 85%;
+  transition: width 0.6s ease-in; }
+
+.js {
+  width: 80%;
+  transition: width 0.6s ease-in; }
+
+.liquid {
+  width: 75%;
+  transition: width 0.6s ease-in; }
+
+.github {
+  width: 70%;
+  transition: width 0.6s ease-in; }
+
+.exp {
+  background: #fafafa; }
 
 /*# sourceMappingURL=main.css.map */

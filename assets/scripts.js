@@ -22,7 +22,7 @@ $(function() {
     });
     $(window).scroll(function() {
         var vp_scroll = $(this).scrollTop();
-        if(vp_scroll > $(".skills-list-item").offset().top - ($(window).height() / 1.1)) {
+        if(vp_scroll > $(".skills-list-item").offset().top - ($(window).height())) {
             $(".skills-list-item").each(function (i) {
                 setTimeout(function() {
                     $(".skills-list-item").eq(i).addClass(skills_class[i]);

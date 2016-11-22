@@ -91,24 +91,24 @@ body {
   margin: 0 10%; }
 
 .hobbies-row {
+  margin: 5% 0;
   font-size: 1.2em; }
 
 .hobbies-row:first-of-type {
   margin: 5% 0 0 0; }
 
 .hobbies h2 {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.7em; }
 
 .hobbies-label {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 0.7em; }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.8em; }
 
 .meter {
   height: 1em;
   background: transparent;
   width: 100%;
-  margin: 1% 0 10% 0;
   border-radius: 1.1em; }
 
 .meter-fill {
@@ -138,21 +138,18 @@ body {
 
 .skills {
   font-size: 1.5em;
-  padding: 0 0 2% 0;
+  padding: 0.5em 0;
   border-bottom: 1px solid #e2e2e2; }
 
 .skills-wrap {
   margin: 0 10%; }
 
 .skills h2 {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.7em; }
 
 .skills-list {
-  margin: 2% 0;
-  border-right: 2px dashed #424242; }
-
-.skills-list:last-of-type {
-  margin: 0 0 2% 0; }
+  margin: 5% 0; }
 
 .skills-list-item {
   margin: 1% 0;
@@ -164,12 +161,13 @@ body {
 
 .skills-label {
   z-index: 2;
-  width: 3em;
+  width: 3.3em;
   display: inline-block;
   position: relative;
   color: #fff;
   padding: 0 0 0 0.1em;
-  background: #424242; }
+  background: #424242;
+  font-family: "Open Sans Condensed", sans-serif; }
 
 .html {
   width: 90%;
